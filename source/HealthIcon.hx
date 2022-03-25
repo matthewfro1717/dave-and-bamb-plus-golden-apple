@@ -41,7 +41,14 @@ class HealthIcon extends FlxSprite
 		'bambom',
 		'ringi',
 		'bendu',
-		'dave-wheels'
+		'dave-wheels',
+		'dave-splitathon',
+		'bambi-splitathon',
+		'bambi',
+		'bambi-unfair',
+		'bambi-old',
+		'tristan',
+		'the-duo'
 	];
 
 	public var charPublic:String = 'bf';
@@ -79,6 +86,26 @@ class HealthIcon extends FlxSprite
 			addIcon('hall-monitor', 42);
 
 			addIcon('bambi-good', 44);
+			
+			addIcon('bambi', 44);
+
+			addIcon('bambi-3d', 46);
+
+			addIcon('tristan', 48);
+
+            addIcon('dave-annoyed-3d', 50);
+
+            addIcon('bambi-angey', 52);				
+
+            addIcon('bambi-old', 54);
+			
+			addIcon('dave', 22);
+			
+			addIcon('dave-splitathon', 22);
+
+			addIcon('bambi-splitathon', 44);
+
+			addIcon('the-duo', 48);			
 
 			addIcon('sart-producer', 26);
 
@@ -88,9 +115,9 @@ class HealthIcon extends FlxSprite
 	
 			addIcon('tunnel-bf', 0);
 		
-			addIcon('bf-old', 2);
+			addIcon('bf-old', 58);
 		
-			addIcon('gf', 57, true);
+			addIcon('gf', 56, true);
 
 			addIcon('bambi-unfair', 4);
 			
